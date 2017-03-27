@@ -1,0 +1,13 @@
+#btn {
+	background-color: #005875;
+	width: 250px;
+	height: 40px;
+	color: white;
+	font-weight: 300;
+	font-size: 0.9em;
+}
+.hide-me {
+	visibility: hidden;
+	opacity: 0;
+	transition: 500ms all ease;
+}
