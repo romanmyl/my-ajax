@@ -30,23 +30,23 @@ function renderHTML(data) {
 	var htmlString = "";
 
 	for (var i = 0; i < data.length; i++) {
-		htmlString += "<p>" + data[i].name + " is a " + data[i].species + " that likes to eat ";
+		htmlString += "<p>" + data[i].name + " is a " + data[i].species + ",<br> &#8195; that likes to eat ";
 
-		for (var j = 0; j < data[i].foods.likes.length; j++) {
-			if (j == 0) {
-			htmlString += data[i].foods.likes[j];
+		for (var ii = 0; ii < data[i].foods.likes.length; ii++) {
+			if (ii == 0) {
+			htmlString += data[i].foods.likes[ii];
 			} else {
-			  htmlString += " and " + data[i].foods.likes[j];
+			  htmlString += " and " + data[i].foods.likes[ii];
 			}
 		}
 
-		htmlString += ' and dislikes ';
+		htmlString += '<br> &#8195; and dislikes ';
 
-		for (var j = 0; j < data[i].foods.dislikes.length; j++) {
-			if (j == 0) {
-			htmlString += data[i].foods.dislikes[j];
+		for (var ii = 0; ii < data[i].foods.dislikes.length; ii++) {
+			if (ii == 0) {
+			htmlString += data[i].foods.dislikes[ii];
 			} else {
-			  htmlString += " and " + data[i].foods.dislikes[j];
+			  htmlString += " and " + data[i].foods.dislikes[ii];
 			}
 		}
 
