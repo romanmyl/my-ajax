@@ -1,0 +1,28 @@
+[ 
+	{
+		"name": "Black",
+		"species": "cat",
+		"foods":  {
+			"likes": ["tuna", "catnip"],
+			"dislikes": ["ham", "zucchini"]
+		}
+	},
+	{
+		"name": "Zhora",
+		"species": "dog",
+		"foods":  {
+			"likes": ["tuna", "catnip"],
+			"dislikes": ["ham", "zucchini"]
+		}
+	},
+	{
+		"name": "Graf",
+		"species": "dog",
+		"foods":  {
+			"likes": ["all food", "juice"],
+			"dislikes": ["All children"]
+		}
+	}
+]
+
+

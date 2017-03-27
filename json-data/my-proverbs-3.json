@@ -1,0 +1,28 @@
+[ 
+	{
+		"name": "White",
+		"species": "cat",
+		"foods":  {
+			"likes": ["tuna", "catnip"],
+			"dislikes": ["ham", "zucchini"]
+		}
+	},
+	{
+		"name": "Pink nose",
+		"species": "little PIG",
+		"foods":  {
+			"likes": ["tuna", "catnip"],
+			"dislikes": ["ham", "zucchini"]
+		}
+	},
+	{
+		"name": "Masiana-2",
+		"species": "cat",
+		"foods":  {
+			"likes": ["all food", "milk"],
+			"dislikes": ["Gray cat"]
+		}
+	}
+]
+
+

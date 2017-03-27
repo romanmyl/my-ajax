@@ -1,0 +1,29 @@
+[ 
+	{
+		"name": "Gray",
+		"species": "cat",
+		"foods":  {
+			"likes": ["tuna", "catnip"],
+			"dislikes": ["ham", "zucchini"]
+		}
+	},
+	{
+		"name": "Bimka",
+		"species": "dog",
+		"foods":  {
+			"likes": ["tuna", "catnip"],
+			"dislikes": ["ham", "zucchini"]
+		}
+	},
+	{
+		"name": "Masiana",
+		"species": "cat",
+		"foods":  {
+			"likes": ["all food", "milk"],
+			"dislikes": ["Gray cat"]
+		}
+	}
+]
+
+
+
